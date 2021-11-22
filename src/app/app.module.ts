@@ -12,6 +12,8 @@ import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
+import { DescricaoReduzidaPipe } from './util/descricao-reduzida.pipe';
+import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
     RestaurantesComponent,
     OfertaComponent,
     ComoUsarComponent,
-    OndeFicaComponent
+    OndeFicaComponent,
+    DescricaoReduzidaPipe,
+    OrdemCompraComponent
   ],
   imports: [
     BrowserModule,
